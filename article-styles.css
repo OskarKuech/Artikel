@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ivyora+Display:wght@400;700&display=swap');
+
+body {
+    font-family: "ivyora-display", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.top-headline {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sub-headline {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 480px; /* Set maximum height for the image */
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
